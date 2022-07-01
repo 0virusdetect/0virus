@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="cat.svg" />
+    <title>Abhishek Jaiswal</title>
+  </head>
+  <body>
+    <!-- navbar  -->
+    <section>
+      <div class="nav_color">
+        <duv class="container nav_bar">
+          <div class="nav_title">
+            <ul>
+              <li><a href="/">Abhishek Jaiswal</a></li>
+            </ul>
+          </div>
+          <input type="checkbox" id="nav_bar1" />
+          <label for="nav_bar1" class="nav_bar1_btn">
+            <i class="fa fa-bars"></i>
+          </label>
+          <div class="nav_links">
+            <ul>
+              <li><a href="/">Work</a></li>
+              <li><a href="/">Post</a></li>
+              <li>
+                <a href="https://github.com/0virusdetect/0virus">Source</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nav_mode">
+            <input onclick="myFunction();" type="checkbox" id="check" />
+            <label for="check" class="mode"> </label>
+          </div>
+        </duv>
+      </div>
+    </section>
+    <!-- navbar  -->
+
+    <!-- content  -->
+    <section>
+      <div class="container">
+        <div class="row content">
+          <div
+            class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 c_left text-center"
+          >
+            <img src="a.png" class="img-fluid rounded-circle" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 c_right">
+            <h4>Hi there&#33; I&#39;m</h4>
+            <h1>Abhishek Jaiswal</h1>
+
+            <h3>Front-End <span>&</span> Back-End Developer</h3>
+            <p>
+              I am always looking for new freelance and professional
+              opportunities.
+            </p>
+            <p>Let&#33;s make something astounding together.</p>
+
+            <a href="abhishek.pdf" class="btn btn-danger">my resume</a>
+            <button onclick="scrollToContact()" class="btn btn-danger">
+              contact me
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- content  -->
+
+    <!-- about me  -->
+    <section class="aboutme">
+      <div class="container">
+        <div class="aboutme_title py-4">
+          <h3>About me</h3>
+          <hr class="w-25 mt-2" />
+        </div>
+        <div class="aboutme_content">
+          <div class="row">
+            <div class="aboutme_content_l">
+              <h5>HEY THERE.</h5>
+              <p>
+                My name's Abhishek and I am a Front-End
+                <span>&</span> Back-End Developer currently living in Kanpur . I
+                have finished my studies in 2019 after that i am wroking as an
+                freelancer.
+              </p>
+              <h5 class="py-2">Bio.</h5>
+              <h6>1998 <span>Born in Kanpur.</span></h6>
+              <h6>
+                2012
+                <span
+                  >i have completd my highschool from ST. Fransis Xavier Inter
+                  College.</span
+                >
+              </h6>
+              <h6>2015 <span>i have completed my Inter from B.N.S.D Inter College.</span></h6>
+              <h6>2019 <span>i have Done B.C.A(not completd).</span></h6>
+              <h6>2019 to present <span>Working as a freelancer.</span></h6>
+            </div>
+            <div class="aboutme_content_hobbies">
+              <h5 class="py-2">I &hearts;.</h5>
+              <p>Art , Music , Drawing , Playing Games , Football , Web Designing , App Development , Surfing ,
+                Working out.</p>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about me  -->
+
+    <!-- contact me  -->
+    <section class="contactme py-4">
+      <div class="container">
+        <div class="contactme_title">
+          <h3>Contact me</h3>
+          <hr class="w-25 mt-2" />
+        </div>
+        <div class="contactme_content text-center">
+          <h2>I like where this is headed.</h2>
+          <h5>Let's talk, type or text.</h5>
+          <h6>You can fill out the form below or shoot me an email</h6>
+          <h6>at : abhishekjaiswal866@gmail.com.</h6>
+        </div>
+
+        <div class="container-fluid contact_form">
+          <div class="container py-4">
+            <div class="forms mt-3 col-12 col-lg-6 col-xl-6 col-xxl-6 mx-auto">
+              <form>
+                <div class="form-group py-1">
+                  <label class="py-1" for="exampleFormControlInput1"
+                    >Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder=""
+                  />
+                </div>
+                <div class="form-group py-1">
+                  <label class="py-1" for="exampleFormControlInput2"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput2"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="form-group py-1">
+                  <label class="py-1" for="exampleFormControlTextarea1"
+                    >Message
+                  </label>
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <button disabled type="submit" class="btn btn-primary my-3">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact me end -->
+
+    <!-- footer  -->
+    <section>
+      <div class="footer1 container-fluid py-5">
+        <div class="text-center">
+          <p class="my-0">
+            Leaf Enterprises
+          </p>
+          <p class="my-0">abhishekjaiswal866@gmail.com</p>
+          <p class="my-0">
+            Copyright &#169; 2019 | Abhishek Jaiswal | All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- footer end  -->
+    <script>
+      function scrollToContact() {
+        var elmnt = document.querySelector(".contactme");
+        elmnt.scrollIntoView({ behavior: "smooth" });
+      }
+    </script>
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/c7933e27d2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
