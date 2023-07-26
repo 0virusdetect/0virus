@@ -9,13 +9,13 @@
 
 :root {
   --nav-color: #b7dbb4;
-  --bg-color: rgb(222, 247, 220);
+  --bg-color: #def7dc;
   --nav-bg: #7b78d3;
   --link-hover: #ffd5d5;
   --text-white: #ffffff;
   --text-black: #171c26;
 }
-.dark-mode {
+[data-theme="dark"]  {
   --nav-color: #29384d;
   --bg-color: #465262;
   --nav-bg: #f7d197;
