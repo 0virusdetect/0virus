@@ -132,8 +132,7 @@ body {
   background-color: var(--nav-bg);
   color: var(--text-white);
   animation: animate ease-in 0.5s;
-  margin: 0px;
-  padding: 10px;
+padding: 10px 14px;
   position: relative;
   border-radius: 6px;
 }
