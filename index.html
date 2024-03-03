@@ -2,460 +2,233 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<meta name="description" content="Store Bookmark">
-<meta name="keywords" content="HTML,CSS,XML,JavaScript,Bootstrap">
-<meta name="author" content="Abhishek Jaiswal">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="./bootstrap.min.css">
-<link rel="stylesheet" href="style.css">
-<title>Bookmark Wallet</title>
-<link rel="icon" sizes="16x16" type="image/x-icon" href="logo.svg">
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+rel="stylesheet"
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+crossorigin="anonymous"
+/>
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" type="image/x-icon" href="cat.svg" />
+<title>Abhishek Jaiswal</title>
 </head>
-
 <body>
-<!-- bottom button start -->
+<!-- navbar  -->
+<section>
+<div class="nav_color">
+<duv class="container nav_bar">
+<div class="nav_title">
+<ul>
+<li><a href="/">Abhishek Jaiswal</a></li>
+</ul>
+</div>
+<input type="checkbox" id="nav_bar1" />
+<label for="nav_bar1" class="nav_bar1_btn">
+<i class="fa fa-bars"></i>
+</label>
+<div class="nav_links">
+<ul>
+<li><a href="/">Work</a></li>
+<li><a href="/">Post</a></li>
+<li>
+<a href="https://github.com/0virusdetect/0virus">Source</a>
+</li>
+</ul>
+</div>
+
+<div class="nav_mode">
+<input type="checkbox" id="check" class="input_navMode" />
+<label for="check" class="mode"> </label>
+</div>
+</div>
+</div>
+</section>
+<!-- navbar  -->
+
+<!-- content  -->
+<section>
 <div class="container">
-<div class="bottom_button">
-<a onclick="scrolltohome()" href="javascript:void(0);"><img src="arrow_up.png"  alt="home"></a>
+<div class="row content">
+<div
+class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 c_left text-center"
+>
+<img src="a.png" class="img-fluid rounded-circle" alt="" />
 </div>
-<!-- bottom button end -->
+<div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 c_right">
+<h4>Hi there&#33; I&#39;m</h4>
+<h1>Abhishek Jaiswal</h1>
 
-<!-- header menu start -->
-<div class="main_content">
-<a href="index.html">
-<img src="logo.svg" alt="">
-<h1 class="typing-text" id="typing-text"></h1>
-</a>
-</div>
-<!-- header menu end -->
+<h3>Front-End <span>&</span> Back-End Developer</h3>
+<p>
+I am always looking for new freelance and professional
+opportunities.
+</p>
+<p>Let&#33;s make something astounding together.</p>
 
-<div class="scrolling_wrapper">
-<div class="car_d">
-    <a href="#website">Website</a>
-</div>
-<div class="car_d">
-    <a href="#jobs">Jobs</a>
-</div>
-<div class="car_d">
-    <a href="#course">Course</a>
-</div>
-<div class="car_d">
-    <a href="#javascript">Javascript</a>
-</div>
-<div class="car_d">
-    <a href="#my_work">MY Work</a>
-</div>
-<div class="car_d">
-    <a href="#css">CSS</a>
-</div>
-<div class="car_d">
-    <a href="#movies">Movies</a>
-</div>
-<div class="car_d">
-    <a href="#typing_test">Typing Test</a>
-</div>
-<div class="car_d">
-    <a href="#linux">Linux</a>
+<a href="abhishek.pdf" class="btn btn-danger">my resume</a>
+<button onclick="scrollToContact()" class="btn btn-danger">
+contact me
+</button>
 </div>
 </div>
+</div>
+</section>
+<!-- content  -->
 
-<!-- Website start -->
-<p id="website" class="text-center title_link_s my-3">Website</p>
+<!-- about me  -->
+<section class="aboutme">
+<div class="container">
+<div class="aboutme_title py-4">
+<h3>About me</h3>
+<hr class="w-25 mt-2" />
+</div>
+<div class="aboutme_content">
 <div class="row">
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://youtube.com/"><span class="me-2"><img src="youtube.svg" height="24" alt=""></span>Youtube</a></li>
-<li><a target="_blank" href="https://youtube.com/">Youtube</a></li>
-<li><a target="_blank" href="https://discord.com/channels/@me">Discord</a></li>
-<li><a target="_blank" href="https://chat.openai.com/chat">Chatgpt</a></li>
-<li><a target="_blank" href="https://pixabay.com/music">Free Music</a></li>
-<li><a target="_blank" href="https://www.pexels.com">Free Photos</a></li>
-<li><a target="_blank" href="https://uxstore.com/">UX Store</a></li>
-<li><a target="_blank" href="https://my.telegram.org/auth?to=deactivate">Telegram Account Delete</a>
-</li>
-<li><a target="_blank" href="https://logomakr.com/">Logo Maker</a></li>
-<li><a target="_blank" href="https://www.wplocker.com/en/">Wordpress Theme WPLocker</a></li>
-<li><a target="_blank" href="https://wazirx.com/">Wazir x</a></li>
-</ul>
+<div class="aboutme_content_l">
+<h5>HEY THERE.</h5>
+<p>
+My name's Abhishek and I am a Front-End
+<span>&</span> Back-End Developer currently living in Kanpur . I
+have finished my studies in 2019 after that i am wroking as an
+freelancer.
+</p>
+<h5 class="py-2">Bio.</h5>
+<h6>1998 <span>Born in Kanpur.</span></h6>
+<h6>
+2012
+<span
+>i have completd my highschool from ST. Fransis Xavier Inter
+College.</span
+>
+</h6>
+<h6>2015 <span>i have completed my Inter from B.N.S.D Inter College.</span></h6>
+<h6>2019 <span>i have Done B.C.A(not completd).</span></h6>
+<h6>2019 to present <span>Working as a freelancer.</span></h6>
 </div>
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://github.com/">Github</a></li>
-<li><a target="_blank" href="https://picsum.photos/">Photos (Lorem Picsum)</a></li>
-<li><a target="_blank" href="https://unsplash.com/">Free Photos</a></li>
-<li><a target="_blank" href="https://pixelhunter.io/">Image Resizer</a></li>
-<li><a target="_blank" href="https://www.namecheap.com/">Domain Name Buy (Name Cheap)</a></li>
-<li><a target="_blank" href="https://submit.shutterstock.com/">Sell Photos Videos</a></li>
-<li><a target="_blank" href="https://panzoid.com/tools/clipmaker">Intro Maker</a></li>
-<li><a target="_blank" href="https://playgroundai.com/feed">AI Image Generator</a></li>
-<li><a target="_blank" href="https://www.wallpaperflare.com/">Free Images</a></li>
-<li><a target="_blank" href="https://www.olx.in/en-in">OLX</a></li>
-</ul>
-</div>
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://drive.google.com/drive/home">Google Drive</a></li>
-<li><a target="_blank" href="https://www.seedr.cc/">Seeder</a></li>
-<li><a target="_blank" href="https://shinden.pl/main">Shinden</a></li>
-<li><a target="_blank" href="https://waifuxl.com/">Waifu XL (Image)</a></li>
-<li><a target="_blank" href="https://freeflo.ai/images/all">AI Images</a></li>
-<li><a target="_blank" href="https://my.excitel.com/">Exictel</a></li>
-<li><a target="_blank" href="https://zyro.com/in/tools/image-background-remover">Image Background
-Remover</a></li>
-<li><a target="_blank" href="https://downforeveryoneorjustme.com/">Website check</a></li>
-<li><a target="_blank" href="https://www.hetzner.com/">Hetzner Hosting</a></li>
-<li><a target="_blank" href="https://snapsave.io/en37">Youtube Video Download</a></li>
-</ul>
-</div>
-</div>
-<!-- website end -->
-
-<!-- jobs start -->
-<p id="jobs" class="text-center title_link_s my-3">Jobs</p>
-<div class="row">
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://www.ncs.gov.in/">NCS</a></li>
-<li><a target="_blank" href="https://www.apple.com/careers/in/">apple careers</a></li>
-<li><a target="_blank" href="https://www.linkedin.com/feed/">linkedin</a></li>
-<li><a target="_blank" href="https://www.ziprecruiter.com/">zip recruiter</a></li>
-<li><a target="_blank" href="https://developers.turing.com/login?redirect=%2Fwelcome">turing</a>
-</li>
-<li><a target="_blank" href="https://internshala.com/">Internshala</a></li>
-</ul>
-</div>
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://www.duolingo.com/">duolingo (Learn Language)</a></li>
-<li><a target="_blank" href="https://www.voices.com/">voices</a></li>
-<li><a target="_blank" href="https://www.clickasnap.com/">clickasnap</a></li>
-<li><a target="_blank" href="https://developer.apple.com/">apple</a></li>
-<li><a target="_blank"
-href="https://offervault.com/?selectedTab=payPerCallOffers&search=&page=1">Affiliate
-Marketing</a></li>
-<li><a target="_blank" href="https://jobs.harman.com/en_US/careers">harman</a></li>
-</ul>
-</div>
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://www.fiverr.com/">fiverr</a></li>
-<li><a target="_blank" href="https://www.metacareers.com/jobs">meta careers</a></li>
-<li><a target="_blank" href="https://www.aicte-india.org/">aicte</a></li>
-<li><a target="_blank"
-href="https://jobs.careers.microsoft.com/us/en/job/1664077/Software-Engineer">microsoft
-careers</a></li>
-<li><a target="_blank" href="https://www.techseries.dev/daily">Daily Interview Pro</a></li>
-<li><a target="_blank" href="https://www.thecodingbytes.com/">the coding bytes</a></li>
-</ul>
-</div>
-</div>
-<!-- jobs end -->
-
-<!-- course start -->
-<p id="course" class="text-center title_link_s my-3">Course</p>
-<div class="row">
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://www.programiz.com/c-programming/online-compiler/">C
-Compiler</a></li>
-<li><a target="_blank"
-href="https://downloadly.ir/download/elearning/video-tutorials/">Dwonloadly</a></li>
-<li><a target="_blank" href="https://www.yasdl.com/?s=php">PDF</a></li>
-<li><a target="_blank" href="https://grow.google/intl/en_in/">Learn with Google</a></li>
-<li><a target="_blank" href="https://developer.mozilla.org/en-US/">Mozilla Developement</a></li>
-</ul>
-</div>
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://learn.microsoft.com/en-us/docs/">Learn from Microsoft</a></li>
-<li><a target="_blank" href="https://gigacourse.com/?1">Giga course</a></li>
-<li><a target="_blank" href="https://courseclub.me/?1">Course club</a></li>
-<li><a target="_blank" href="https://developers.google.com/">Google Developers</a></li>
-</ul>
-</div>
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://freecoursesite.com/">Free course site</a></li>
-<li><a target="_blank" href="https://downloadlynet.ir/">Downloadlynet</a></li>
-<li><a target="_blank" href="https://www.youtube.com/@KG_Coding/videos">KG Coding</a></li>
-<li><a target="_blank" href="https://www.classcentral.com/">Find Course</a></li>
-</ul>
-</div>
-</div>
-<!-- course start -->
-
-<!-- javascript start -->
-<p id="javascript" class="text-center title_link_s my-3">Javascript</p>
-<div class="row">
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://jsbin.com/?js,console">Js Console</a></li>
-<li><a target="_blank" href="https://www.solidjs.com/">solid js</a></li>
-<li><a target="_blank" href="https://qwik.builder.io/">qwik builder</a></li>
-</ul>
-</div>
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://svelte.dev/">svelte</a></li>
-<li><a target="_blank" href="https://swiperjs.com/">Swiper js</a></li>
-<li><a target="_blank"
-href="https://www.youtube.com/watch?v=-ZMP8ZladIQ&ab_channel=Cybernatico">Crud Using
-React</a></li>
-</ul>
-</div>
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank"
-href="https://www.freecodecamp.org/news/how-to-perform-crud-operations-using-react/">CRUD
-Using React</a></li>
-<li><a target="_blank" href="https://mockapi.io/projects">Mock API</a></li>
-</ul>
-</div>
-</div>
-<!-- javascript end -->
-
-<!-- my work start -->
-<p id="my_work" class="text-center title_link_s my-3">MY WOrk</p>
-<div class="row">
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://0virusdetect.github.io/0virus/">0virus</a></li>
-<li><a target="_blank" href="https://harshit85.github.io/harshResume/index.html">harsh Resume</a>
-</li>
-<li><a target="_blank" href="https://www.algoexpert.io/product">algo expert</a></li>
-</ul>
-</div>
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://academy.hackthebox.com/">hack the box</a></li>
-<li><a target="_blank" href="https://www.codechef.com/">code chef</a></li>
-</ul>
-</div>
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://www.hackerearth.com/">hacker earth</a></li>
-<li><a target="_blank" href="https://www.hackerrank.com/products/main/">hacker rank</a></li>
-</ul>
-</div>
-</div>
-<!-- my work end -->
-
-<!-- css start -->
-<p id="css" class="text-center title_link_s my-3">CSS</p>
-<div class="row">
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://icons8.com/icons">Icons</a></li>
-<li><a target="_blank"
-href="https://michellethecreator.com/how-to-make-a-custom-icon-font-with-svg-graphics/">Custom
-Icon Font with SVG</a></li>
-<li><a target="_blank" href="https://dennissnellenberg.com/">Design 1</a></li>
-<li><a target="_blank" href="https://emble.studio/">Design 2</a></li>
-<li><a target="_blank" href="https://colorhunt.co/">Select Color Hunt</a></li>
-<li><a target="_blank" href="https://codepen.io/sosuke/pen/Pjoqqp">Convert color to Filter</a></li>
-<li><a target="_blank" href="https://shape.so/">Modern Illustration</a></li>
-<li><a target="_blank" href="https://angle.sh/">Phone and laptop Illustration</a></li>
-<li><a target="_blank" href="https://undraw.co/">Icon and laptop Illustration</a></li>
-<li><a target="_blank" href="https://screenlane.com/">Mobile UI Design 1</a></li>
-<li><a target="_blank" href="https://scrnshts.club/">Mobile UI Design 2</a></li>
-<li><a target="_blank" href="https://www.behance.net/">Mobile UI Design 3</a></li>
-<li><a target="_blank" href="https://www.sketchappsources.com/">Mobile UI Design 4</a></li>
-<li><a target="_blank" href="https://www.blobmaker.app/">Create Blob Maker</a></li>
-<li><a target="_blank" href="https://www.darkmodedesign.com/">Dark Mode Design</a></li>
-</ul>
-</div>
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://mobbin.com/browse/web/apps">Discover Design</a></li>
-<li><a target="_blank" href="https://www.w3schools.com/colors/colors_picker.asp">Color Picker</a>
-</li>
-<li><a target="_blank" href="https://webgradients.com/">Web gradients</a></li>
-<li><a target="_blank" href="https://neumorphism.io/#e0e0e0">Neumorphism</a></li>
-<li><a target="_blank" href="https://hype4.academy/tools/glassmorphism-generator">Glassmorphism</a>
-</li>
-<li><a target="_blank" href="https://iconscout.com/">Icon and Illustration</a></li>
-<li><a target="_blank" href="https://uiverse.io/">Elements like Button Search bar Icons</a></li>
-<li><a target="_blank" href="https://fontawesome.com/icons">Font Awesome Icons</a></li>
-<li><a target="_blank" href="https://www.figma.com/@sourasithp">Sourasithp Figma Design</a></li>
-<li><a target="_blank" href="https://techzeero.com/html-css-templates/login-forms/">Login Form
-Templates</a></li>
-<li><a target="_blank" href="https://www.textures.com/library">Textures For Blender</a></li>
-<li><a target="_blank" href="https://m3.material.io/">Material Design System</a></li>
-<li><a target="_blank" href="https://getwaves.io/">Create Wave Gradient</a></li>
-<li><a target="_blank" href="https://stacksorted.com/grids">Stack Sorted Design</a></li>
-</ul>
-</div>
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://michalsnik.github.io/aos/">AOS Library</a></li>
-<li><a target="_blank" href="https://animate.style/">Animate Library</a></li>
-<li><a target="_blank" href="https://html-css-js.com/css/generator/box-shadow/">Box Shadow
-Design</a></li>
-<li><a target="_blank" href="https://filldb.info/">Database Data Generator</a></li>
-<li><a target="_blank"
-href="https://www.behance.net/gallery/171432223/Nomology-Website-Branding?tracking_source=search_projects|ux">Design
-4</a></li>
-<li><a target="_blank"
-href="https://www.realtimecolors.com/?colors=050505-fafafa-a1f3a2-d1fada-e1211e&fonts=Poppins-Poppins">Check
-Real Time Color 1</a></li>
-<li><a target="_blank" href="https://huemint.com/brand-intersection/">Check Real Time Color 2</a>
-</li>
-<li><a target="_blank" href="https://modelviewer.dev/">Model Viewer</a></li>
-<li><a target="_blank" href="https://dribbble.com/">Explore Inspiring Designs
-</a></li>
-<li><a target="_blank" href="https://www.freepik.com/">Free Picture Design</a></li>
-<li><a target="_blank" href="https://minhpham.design/">Design 3</a></li>
-<li><a target="_blank" href="https://gradientbuttons.colorion.co/">Gradient Buttons</a></li>
-<li><a target="_blank" href="https://meshgradient.com/">Create Mesh Gradient</a></li>
-<li><a target="_blank" href="https://minimal.gallery/">Minimal Gallery</a></li>
-</ul>
-</div>
-</div>
-<!-- css end -->
-
-<!-- movies start -->
-<p id="movies" class="text-center title_link_s my-3">Movies</p>
-<div class="row">
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://nyaa.si/">Torrent Website</a></li>
-<li><a target="_blank" href="https://dotmovies.dad/">Dot Movies</a></li>
-<li><a target="_blank" href="https://www.torrentdownload.info/">Torrent Download</a></li>
-<li><a target="_blank" href="https://anitaku.to/home.html">Gogo Anime</a></li>
-<li><a target="_blank" href="https://kissasian.sh/">kissasian</a></li>
-<li><a target="_blank" href="https://mlwbd.run/">MLWBD</a></li>
-</ul>
-</div>
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://rargb.to/">Rarbg</a></li>
-<li><a target="_blank" href="https://bollyflix.loans/">Bollyflix</a></li>
-<li><a target="_blank" href="https://www.limetorrents.lol/home">Limetorrents</a></li>
-<li><a target="_blank" href="https://noodlemagazine.com/new-video">noodlemagazine</a></li>
-<li><a target="_blank" href="https://84.46.254.230/">https://84.46.254.230/</a></li>
-<li><a target="_blank" href="https://filepursuit.com/">filepursuit</a></li>
-</ul>
-</div>
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://torrentz2.nz/">Torrentz2</a></li>
-<li><a target="_blank" href="https://torlock.homes/">Torlock</a></li>
-<li><a target="_blank" href="https://pikahd.com/">pikahd</a></li>
-<li><a target="_blank" href="https://bitsearch.to/">bitsearch</a></li>
-<li><a target="_blank" href="https://www.afilmywap.com.pe/">afilmywap</a></li>
-<li><a target="_blank" href="https://yts.torrentbay.to/">yts torrentbay</a></li>
-</ul>
-</div>
-</div>
-<!-- movies start -->
-
-<!-- typing start -->
-<p id="typing_test" class="text-center title_link_s my-3">Typing Test</p>
-<div class="row">
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://www.keybr.com">Typing Test 1</a></li>
-<li><a target="_blank" href="https://typing.works">Typing Test 2</a></li>
-<li><a target="_blank" href="https://www.easyhindityping.com/">Type in Hindi</a></li>
-</ul>
-</div>
-</div>
-<!-- typing end -->
-
-
-<!-- linux start -->
-<p id="linux" class="text-center title_link_s my-3">Linux</p>
-<div class="row">
-<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 col-xxxl-4 link_s">
-<ul>
-<li><a target="_blank" href="https://www.gnome-look.org/s/Gnome/browse/">Icon Themes</a></li>
-<li><a target="_blank"
-href="https://www.freecodecamp.org/news/how-to-set-an-environment-variable-in-linux/">Set
-Environment Variable</a></li>
-<li><a target="_blank" href="https://linuxize.com/">Linux Software Install</a></li>
-</ul>
-</div>
-</div>
-<!-- linux end -->
-
-<div class="my_footer my-3">
-<p class="text-center">Abhishek Jaiswal &#169; 2024</p>
+<div class="aboutme_content_hobbies">
+<h5 class="py-2">I &hearts;.</h5>
+<p>Art , Music , Drawing , Playing Games , Football , Web Designing , App Development , Surfing ,
+Working out.</p>
 </div>
 
 </div>
-<script src="./bootstrap.bundle.min.js"
-integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-crossorigin="anonymous"></script>
+</div>
+</div>
+</section>
+<!-- about me  -->
+
+<!-- contact me  -->
+<section class="contactme py-4">
+<div class="container">
+<div class="contactme_title">
+<h3>Contact me</h3>
+<hr class="w-25 mt-2" />
+</div>
+<div class="contactme_content text-center">
+<h2>I like where this is headed.</h2>
+<h5>Let's talk, type or text.</h5>
+<h6>You can fill out the form below or shoot me an email</h6>
+<h6>at : abhishekjaiswal866@gmail.com.</h6>
+</div>
+
+<div class="container-fluid contact_form">
+<div class="container py-4">
+<div class="forms mt-3 col-12 col-lg-6 col-xl-6 col-xxl-6 mx-auto">
+<form>
+<div class="form-group py-1">
+<label class="py-1" for="exampleFormControlInput1"
+>Name</label
+>
+<input
+type="text"
+class="form-control"
+id="exampleFormControlInput1"
+placeholder=""
+/>
+</div>
+<div class="form-group py-1">
+<label class="py-1" for="exampleFormControlInput2"
+>Email address</label
+>
+<input
+type="email"
+class="form-control"
+id="exampleFormControlInput2"
+placeholder="name@example.com"
+/>
+</div>
+<div class="form-group py-1">
+<label class="py-1" for="exampleFormControlTextarea1"
+>Message
+</label>
+<textarea
+class="form-control"
+id="exampleFormControlTextarea1"
+rows="3"
+></textarea>
+</div>
+<button disabled type="submit" class="btn btn-primary my-3">
+Send Message
+</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- contact me end -->
+
+<!-- footer  -->
+<section>
+<div class="footer1 container-fluid py-5">
+<div class="text-center">
+<p class="my-0">
+Leaf Enterprises
+</p>
+<p class="my-0">abhishekjaiswal866@gmail.com</p>
+<p class="my-0">
+Copyright &#169; 2019 | Abhishek Jaiswal | All Rights Reserved
+</p>
+</div>
+</div>
+</section>
+<!-- footer end  -->
 <script>
-function scrolltohome() {
-window.scrollTo({
-top: 0,
-left: 0,
-behavior: 'smooth'
-});
+function scrollToContact() {
+var elmnt = document.querySelector(".contactme");
+elmnt.scrollIntoView({ behavior: "smooth" });
 }
 </script>
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-const text = "Bookmark Wallet";
-let index = 0;
-
-function type() {
-document.getElementById('typing-text').textContent = text.slice(0, index++);
-if (index <= text.length) {
-setTimeout(type, 100); // Adjust the typing speed here (in milliseconds)
+const inputEl = document.querySelector(".input_navMode");
+const bodyEl = document.querySelector("body");
+inputEl.checked = JSON.parse(localStorage.getItem("mode"));
+updateBody();
+function updateBody() {
+if (inputEl.checked) {
+bodyEl.setAttribute('data-theme', 'dark');
 } else {
-setTimeout(erase, 1000); // Wait for 1 second before erasing
+bodyEl.setAttribute('data-theme', 'light');
 }
 }
-
-function erase() {
-if (index >= 0) {
-document.getElementById('typing-text').textContent = text.slice(0, index--);
-setTimeout(erase, 100); // Adjust the typing speed here (in milliseconds)
-} else {
-index = 0;
-setTimeout(type, 1000); // Wait for 1 second before typing again
-}
-}
-
-type();
+inputEl.addEventListener("input", () => {
+updateBody();
+updateLocalStorage();
 });
+function updateLocalStorage() {
+localStorage.setItem("mode", JSON.stringify(inputEl.checked));
+}
 </script>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-      // Get all anchor links inside the navigation
-      const navLinks = document.querySelectorAll(".car_d a");
-
-      // Loop through each link
-      navLinks.forEach(function(link) {
-        // Add click event listener to each link
-        link.addEventListener("click", function(event) {
-          event.preventDefault(); // Prevent the default behavior of the link
-           // Remove 'active' class from all links
-           navLinks.forEach(function(link) {
-            link.classList.remove("active");
-          });
-
-          // Add 'active' class to the clicked link
-          link.classList.add("active");
-
-          // Get the target section's ID from the href attribute
-          const targetId = link.getAttribute("href");
-
-          // Scroll to the target section smoothly
-          document.querySelector(targetId).scrollIntoView({
-            behavior: "smooth"
-          });
-          // Add margin-top after scrolling to the section
-          const navbarHeight = document.querySelector('.scrolling_wrapper').offsetHeight;
-          window.scrollBy(0, -navbarHeight); // Adjusts the scroll position by subtracting the height of the navbar
-
-        });
-      });
-    });
-  </script>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"
+></script>
+<script
+src="https://kit.fontawesome.com/c7933e27d2.js"
+crossorigin="anonymous"
+></script>
 </body>
-
 </html>
